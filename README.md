@@ -1,5 +1,6 @@
 # Assignment1
 ##Task1: Setup Initial Infrastructure
+
 Google Cloud Console helps in managing several cloud services. In Task 1, I created a Kubernetes cluster in Google Cloud Console. Through GKE (Google Kubernetes Engine) an environment can be managed for deploying, managing, and scaling containerized application on Google infrastructure.
 
 The first thing I did was create an account in Google Cloud Console. Under the Kubernetes Engine, I created two clusters; one manually and the next with the commands. 
@@ -14,6 +15,7 @@ $gcloud container clusters get-credentials cluster-task1 #retrives the details o
 The cluster was created. 
 
 ##Task2: Microservices Architecture and Deployment
+
 Firstly, I went through the Saleor functionalities and its repositories. 
 Saleor API is a Python and Django-based open-source GraphQL-based e-commerce framework that is used as the back-end component in the development of recent and efficient e-commerce platforms. 
 Saleor Storefront is a user-facing component of an e-commerce platform which makes customer interact on a page having a speedy response integrating with the Saleor API. Being a Progressive Web App, it is user-friendly on both the web and mobile devices. 
