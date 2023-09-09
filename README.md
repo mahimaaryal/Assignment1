@@ -7,10 +7,14 @@ The first thing I did was create an account in Google Cloud Console. Under the K
 For manually, clicked on the “create” button, added a name, location, and created. The cluster “clustertask1” was created. 
 
 I created the second cluster giving a command on the terminal on project A1Task1 and project id: a1task1-398409
-$gcloud config set project a1task1-398409 #for setting up a new project
-$gcloud config set compute/zone australia-southeast1 #for setting up a location in my zone
-$gcloud container clusters create-auto cluster cluster-task1 #created a cluster name clustertask1
-$gcloud container clusters get-credentials cluster-task1 #retrives the details of cluster's authentication credential and configuration updating the 'kubectl' configuration file
+
+gcloud config set project a1task1-398409 #for setting up a new project
+
+gcloud config set compute/zone australia-southeast1 #for setting up a location in my zone
+
+gcloud container clusters create-auto cluster cluster-task1 #created a cluster name clustertask1
+
+gcloud container clusters get-credentials cluster-task1 #retrives the details of cluster's authentication credential and configuration updating the 'kubectl' configuration file
 
 The cluster was created. 
 
